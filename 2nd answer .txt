@@ -1,0 +1,8 @@
+steps 
+
+-> git init
+->git add .
+->git commit -m "with some message"
+-> git remote add origin git@github.com:venkata-krishna-katuri-1/working-on-git-.git
+->git push --set-upstream origin master
+now we can directly see our files in git hub 

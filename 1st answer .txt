@@ -1,0 +1,17 @@
+ssh key can be generated in our local system by typing 
+
+1.ssh-genkey in windows terminal 
+2. go to path where the key is created in our system 
+3. check for options (uncheck the option view ) and apply it
+4. you can see .pub file which is public and open it with note pad 
+5. copy it and login in your github account and go to settings open new ssh key 
+6 . add title and paste the key and there we can connect our system 
+
+importance of ssh keys is :
+
+-> while we use aws cloud or any cloud computer when we want to connect them to our system 
+we can use this ssh keys 
+
+-> this should be carefully done because we should not give our ssh to anyone ...so that our system may be hacked.
+
+-> thus , we can make changes in our system , so that cloud computer system also changes automactically . 
