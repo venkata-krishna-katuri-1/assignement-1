@@ -1,0 +1,46 @@
+naniv@DESKTOP-830S2EJ MINGW64 ~/OneDrive/Desktop/assignment1/assigment 2 (master)
+$ git checkout -b assignment2
+Switched to a new branch 'assignment2'
+
+
+
+naniv@DESKTOP-830S2EJ MINGW64 ~/OneDrive/Desktop/assignment1/assigment 2 (assignment2)
+$  git remote add origin https://github.com/venkata-krishna-katuri-1/assignement-1
+
+naniv@DESKTOP-830S2EJ MINGW64 ~/OneDrive/Desktop/assignment1/assigment 2 (assignment2)
+$ git push
+fatal: The current branch assignment2 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin assignment2
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+naniv@DESKTOP-830S2EJ MINGW64 ~/OneDrive/Desktop/assignment1/assigment 2 (assignment2)
+$  git push --set-upstream origin assignment2
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 213 bytes | 71.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'assignment2' on GitHub by visiting:
+remote:      https://github.com/venkata-krishna-katuri-1/assignement-1/pull/new/assignment2
+remote:
+To https://github.com/venkata-krishna-katuri-1/assignement-1
+ * [new branch]      assignment2 -> assignment2
+branch 'assignment2' set up to track 'origin/assignment2'.
+
+naniv@DESKTOP-830S2EJ MINGW64 ~/OneDrive/Desktop/assignment1/assigment 2 (assignment2)
+$  git push --set-upstream origin assignment2
+Everything up-to-date
+branch 'assignment2' set up to track 'origin/assignment2'.
+
+naniv@DESKTOP-830S2EJ MINGW64 ~/OneDrive/Desktop/assignment1/assigment 2 (assignment2)
+$ git add .
+
+naniv@DESKTOP-830S2EJ MINGW64 ~/OneDrive/Desktop/assignment1/assigment 2 (assignment2)
+$ git push
+Everything up-to-date
+
